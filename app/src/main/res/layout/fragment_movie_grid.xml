@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.natalieryanudacity.android.popularmovies.MovieGridFragment">
+
+    <!-- recycler view for movie posters in grid -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_movielist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <!-- text view for error messages -->
+    <TextView
+        android:id="@+id/no_movies_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/error_text_size"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <!-- layout to hold loader spinner -->
+    <LinearLayout
+        android:id="@+id/grid_loader_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid_loader_pb"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:visibility="gone"/>
+    </LinearLayout>
+</FrameLayout>

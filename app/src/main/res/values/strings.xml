@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- error messages -->
+    <string name="grid_no_movies_found">No movies found</string>
+    <string name="grid_no_connection">No internet connection</string>
+    <string name="details_unable_to_display">No details available</string>
+
+    <!-- strings for selector menu -->
+    <string name="menu_popular">Popular</string>
+    <string name="menu_top_rated">Top Rated</string>
+
+    <!-- strings for details activity -->
+    <string name="details_summary_title">Plot Summary</string>
+    <string name="details_star_rating">/10</string>
+    <string name="details_poster_content_description">Movie poster</string>
+    <string name="details_rating_icon_content_description">MPAA Rating</string>
+    <string name="details_rating_star_content_description">Vote rating</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- layout dimensions -->
+    <dimen name="movie_grid_margin_spacing">8dp</dimen>
+    <dimen name="movie_details_margin">10dp</dimen>
+    <dimen name="movie_details_inner_margin">5dp</dimen>
+    <dimen name="movie_details_bottom_margin">25dp</dimen>
+    <dimen name="movie_details_star_icon_size">22dp</dimen>
+    <dimen name="movie_details_star_icon_padding_top">2dp</dimen>
+    <dimen name="movie_details_star_icon_padding_end">3dp</dimen>
+    <dimen name="movie_details_star_icon_margin_end">-2dp</dimen>
+
+    <!--text sizes -->
+    <dimen name="error_text_size">24sp</dimen>
+    <dimen name="movie_details_summary_text_size">18sp</dimen>
+    <dimen name="movie_details_header_text_size">24sp</dimen>
+    <dimen name="movie_details_summary_title_text_size">21sp</dimen>
+</resources>
